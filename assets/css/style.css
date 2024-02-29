@@ -2,22 +2,18 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
-a:visited {
-  color: skyblue;
-}
-
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
   background-image: url(/assets/img/sfondo.png);
-  max-width: 500px;
-  line-height: 1.5em;
+  line-height: 1.5;
 }
 
 h1 {
   font-size: larger;
   font-weight: 600;
+  color: white;
 }
 
 h2 {
@@ -35,12 +31,18 @@ h3 {
 header {
   text-align: center;
   background-color: skyblue;
+  background-position: center center;
   margin: 5%;
-  color: white;
+  padding: 20px;
 }
 
 header img {
   width: 250px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
 }
 
 /* MAIN */
@@ -71,6 +73,7 @@ aside h3 {
 
 footer {
   text-align: center;
+  padding: 20px;
   margin: 5%;
   color: white;
   background: rgb(53, 53, 53);
