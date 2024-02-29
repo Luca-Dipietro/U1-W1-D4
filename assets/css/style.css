@@ -14,28 +14,35 @@ body {
   max-width: 500px;
 }
 
+h1 {
+  font-size: x-large;
+  font-weight: 600;
+}
+
+h3,
+h5 {
+  font-size: large;
+  font-weight: 600;
+}
+
 /* HEADER */
 
-#header-container {
+header {
   text-align: center;
-  background-color: blue;
+  background-color: skyblue;
   margin: 5%;
   color: white;
 }
 
-#header-container img {
+header img {
   width: 250px;
 }
 
 /* MAIN */
 
-#main-container {
+main {
   background-color: white;
   margin: 5%;
-}
-
-#main-container h3 h5 {
-  font-weight: 600px;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -46,9 +53,18 @@ body {
 
 /* ELEMENTI NELL' ASIDE */
 
+.box-aside {
+  background-color: lightgray;
+  margin: 2%;
+}
+
+aside h3 {
+  text-align: center;
+}
+
 /* FOOTER */
 
-#main-footer {
+footer {
   text-align: center;
   margin: 5%;
   color: white;
