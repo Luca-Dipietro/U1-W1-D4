@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-  font-size: larger;
+  font-size: xx-large;
   font-weight: 600;
 }
 
@@ -26,44 +26,80 @@ h3 {
   font-weight: 600;
 }
 
+hr {
+  border: none;
+}
+
 /* HEADER */
 
 header {
   text-align: center;
-  background-color: skyblue;
+  background: linear-gradient(321deg, #00b2c9, #00889d);
   background-position: center center;
-  margin: 5%;
+  box-shadow: 0 3px 3px #444;
   padding: 20px;
 }
 
 header img {
-  width: 250px;
+  width: 280px;
+}
+
+header nav {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 header nav ul li a {
   color: white;
   text-decoration: none;
+  font-weight: 600;
+  font-size: larger;
+}
+
+i {
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 /* MAIN */
 
 main {
   background-color: white;
-  margin: 5%;
+  padding: 20px;
+}
+
+main .sotit {
+  color: grey;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
+
+article p {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+article ul {
+  list-style: disc;
+  margin-left: 10%;
+}
+
+section p {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+section h3 {
+  margin-top: 5%;
+}
 
 /* TABELLE */
 
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
-
-.box-aside {
-  background-color: lightgray;
-  margin: 2%;
-}
 
 aside h3 {
   text-align: center;
@@ -74,7 +110,6 @@ aside h3 {
 footer {
   text-align: center;
   padding: 20px;
-  margin: 5%;
   color: white;
   background: rgb(53, 53, 53);
   background: linear-gradient(
@@ -82,4 +117,14 @@ footer {
     rgba(53, 53, 53, 1) 0%,
     rgba(5, 85, 103, 1) 68%
   );
+  box-shadow: 0 3px 3px #444;
+  margin: 5%;
+}
+
+footer a {
+  color: fuchsia;
+}
+
+address {
+  margin-top: 5%;
 }
